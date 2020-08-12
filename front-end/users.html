@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>University of PontyBridge: Library Users Menu</title>
+</head>
+<body>
+  <!-- ###################### USERS MAIN MENU ############################### -->
+
+  <!-- Button to return to Homepage -->
+  <div>
+    <button onclick="location.href='index.html'" class="button purple" type="button">Homepage</button>
+  </div>
+
+  <h1>USERS</h1>
+
+  <!-- Button transfers to Add New User Page -->
+  <div>
+    <button onclick="location.href='add_new_user.html'" class="button purple" type="button">Add New User</button>
+  </div>
+
+
+  <div>
+    <h2>SEARCH FOR A USER</h2>
+
+    <!-- Searchbar to look up user's details by name or barcode -->
+    <label for="user-details" class="label-text">Look up user's details by name or by barcode:
+      <input type="text" id="user-details" class="search" placeholder="123456 or Martin Chorley">
+    </label>
+  </div>
+
+
+  <!-- Output container for dynamic table containing user details -->
+  <div class="fixed-header">
+    <table id="responsive-users-table">
+      <thead id="users-table-head">
+      </thead>
+      <tbody id="users-output">
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Top Button - jump back to the top of the page -->
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+
+  <!-- connect to users.js file, which contains main user page functionality -->
+  <script src=users.js></script>
+
+</body>

@@ -1,0 +1,409 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  min-width: 300px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  margin: 0;
+  font-size: 1vw;
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);/* https://codepen.io/nikhil8krishnan/full/WvYPvv/} */
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+  color: #1e1466;
+  font-weight: 500;
+}
+
+/* HOMEPAGE PAGE'S TITLE HEADING ADJUSTMENT */
+#home-page{
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* TABLE BUTTONS */
+
+/* https://codepen.io/dlekovic/pen/eDlkC */
+.button.table-button {
+  padding: 0.5rem 1rem 0.5rem;
+  font-size: .75rem;
+  margin: 0;
+}
+
+/* SEARCH/SUBMIT BUTTONS */
+
+.button.search-button {
+  padding: 0.3rem 1rem 0.3rem;
+  margin-left: 0.25rem;
+  margin-top: 0.75rem;
+  font-size: .75rem;
+  color: black;
+  background-color: #d2d2d2;
+}
+
+/* FOUNDATION OF SUBMIT/SEARCH/TABLE BUTTONS */
+.button {
+    padding: 1rem 2.1rem 1.1rem;
+    border-radius: 3px;
+    margin-top: 2vh;
+    color:white;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.button:hover, .button:focus {
+    opacity: 0.8;
+}
+.button:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.button.block {
+    display: block !important;
+}
+.button.circular {
+  border-radius: 50em !important;
+}
+
+/* TABLE/SUBMIT/SEARCH/NAVIGATION BUTTON COLOR VARIATIONS */
+
+.purple {
+    background-color: #564f8a;
+}
+.sky {
+    background-color: #6698cb;
+}
+.black {
+    background-color: #5c6166;
+}
+
+
+/* ############################### ALL SEARCH BAR RULES ###############################*/
+
+/* https://codepen.io/meericcartman/pen/GpJavw/ */
+
+/* GENERAL SEARCHBAR RULES, ALSO APPLY TO ADDITIONAL AUTHORS FIELD - DYNAMICALLY CREATED ELEMENT */
+.search, .authors {
+	border: 2px solid #CF5C3F;
+	overflow: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.search input, .authors input[type="text"]
+{
+	border: 0px;
+	width: 67%;
+	padding: 10px 10px;
+}
+
+.search input, .authors input[type="text"]:focus
+{
+	outline: 0;
+}
+
+.search input, .authors input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #CF5C3F;
+	color: #fff;
+	float: right;
+	padding: 10px;
+  cursor:pointer;
+}
+
+/* SEARCHBAR RESPONSIVE ADJUSTMENT TO MOBILE DEVICES, RESOLUTION REDUCES SEARCHBAR INCREASES IN LENGTH */
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+
+	.search, .authors{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+
+/* ############################### USERS / BOOKS / LOANS TABLE STYLING - GET REQUEST ################################### */
+
+/* https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tbody-d23182ae0fbc */
+
+/* HEADER STYLING */
+
+.fixed-header{
+    overflow-x: auto;
+    padding-top: 1vh;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed-header thead {
+  background: black;
+  color:#fff;
+}
+
+/* GENERAL TABLE RULES */
+
+table {
+
+  max-width: 100%;
+  overflow-x: auto;
+  color:  #383838;
+  display: table;
+  font-size: 1rem;
+  border-collapse: collapse;
+  position: relative;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* BODY AND HEADER CELLS */
+
+table td, table th {
+  border-top: 1px solid white;
+
+  text-align: left;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 1rem;
+}
+
+/* TABLE HEADER'S CELL ALIGNMENT */
+
+table th {
+  vertical-align: middle;
+  border-bottom: 1px solid white;
+}
+
+/* https://stackoverflow.com/questions/33737100/border-in-chrome-not-visible */
+/* Gerrit Bertier */
+
+/* ADJUSTMENT, GOOGLE CHROME DOES NOT DISPLAY BOTTOM OF THE TABLE, SHADOW FIXES IT */
+#loans-output{
+  -webkit-box-shadow: 0px 0px 0px 1px white;
+-moz-box-shadow: 0px 0px 0px 1px white;
+box-shadow: 0px 0px 0px 1px white;
+}
+
+
+
+/* ############################### USERS / BOOKS / LOANS TABLE STYLING - GET REQUEST (ENDS HERE) ################################### */
+
+/* TOP PAGE BUTTON */
+
+/* https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1rem; /* Place the button at the bottom of the page */
+  right: 1rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #1e1466; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1rem; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/* TOP PAGE BUTTON ENDS*/
+
+
+/* FOR FORMS WHERE USER INPUT IS TAKEN AND MESSAGE IS DISPLAYED AFTER SUBMITION */
+ul{
+ list-style-type: none;
+ display: grid;
+ font-size: 2rem;
+}
+
+
+li{
+ display: grid;
+ grid-column-end: 2;
+ padding-right: 50px;
+ padding-bottom: 5px;
+ align-self:flex-end;
+ margin:1rem;
+
+}
+/* FORM SUBMITION MESSAGES END */
+
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+.homepage-button:hover{
+  color:yellow;
+}
+.homepage-button{
+  background-color: #1e1466; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vw;
+  border-bottom: 1px white solid
+}
+
+/* ============================================= DESKTOP GENERAL ============================================= */
+
+/* FORM INPUT RULES */
+.form-inputs  {
+  padding: 0.5vw;
+  font-size: 1rem;
+}
+
+/* ADD SPACING FOR LOANS */
+#content, #create-loan, #button-update-loan{
+  margin-top: 2vh;
+}
+
+/* GENERAL HEADINGS INSIDE MAIN MENUS AND FORMS */
+h1{
+ font-size: 3rem;
+ text-align: center;
+ margin: 0;
+ color: #1e1466;
+
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* TEXT FOR FOLLOWED BY SEARCH BARS */
+.label-text, #book-id-search{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+#book-id-search{
+  color: white;
+  font-weight: 500;
+}
+
+
+#user-details, #search-books-title-or-author, #user-loans-by-id {
+  margin-bottom: 0.5rem;
+}
+
+/* CREATES SPACE FOR TOP BUTTON NOT TO OVERLAP ON DELETE BUTTON INSIDE THE TABLE */
+.fixed-header{
+  padding-bottom: 13vh;
+}
+
+/* ============================================= MOBILE/TABLET MAX WIDTH 600px RULES ============================================= */
+
+@media only screen and (max-width: 600px){
+  body{
+    font-weight: 400;
+  }
+
+/* AUTHORS DYNAMIC ELEMENT AND OVERAL SEARCH BAR SPACING */
+  .authors .search{
+    padding-bottom: 2vh;
+  }
+
+  /* GENERAL BUTTON RESPONSIVENESS */
+
+  .button{
+    font-size: .65rem;
+    padding: 0.5rem 1.5rem 0.5rem;
+    margin-left: 0;
+  }
+
+/* CENTER THE NAVIGATION ON HOMEPAGE FOR MOBILE DEVICES */
+
+  #homepage-nav{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+/* MORE SPACING BETWEEN TABLES CELLS */
+  table td,
+  table th {
+    padding: 0.5rem;
+  }
+
+/*POSITION OUTPUT MESSAGES INSIDE FORMS FOR MOBILE DEVICES  */
+  ul{
+    font-size: 2rem;
+    grid-row-start: 1;
+  }
+
+/* GENERAL HEADING RESPONSIVENESS */
+  h1 {
+    font-size: 2rem;
+    color: #1e1466;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+/* TEXT FOR FOLLOWED BY SEARCH BARS */
+  .label-text, #book-id-search {
+    font-size: 1rem;
+  }
+
+/* ################ ADJUSTING ALL FORM BUTTON AND SEARCH BAR SPACING INSIDE FORMS AND MAIN MENU ############## */
+
+/* BOOK MAIN MENU SEARCH BOOK ID */
+  #book-id-search{
+    color: white;
+  }
+
+/* SEARCH BAR FOR MAIN TABLE */
+  #user-details, #search-books-title-or-author{
+    margin-bottom: 1rem;
+  }
+
+/* SPACING AT THE BOTTOM EDGE FOR ADDITIONAL AUTHORS IN ADD NEW BOOK FORM PAGE */
+  #content{
+    margin-bottom: 6vh;
+  }
+
+/*RESPONSIVE BUTTONS  */
+
+  #search-book-id-button, #button-search-users-loans, #button-user-borrowing-book, #create-loan  {
+    margin-top: 0.5rem;
+  }
+
+/*DISPLAY MESSAGES INSIDE FORMS  */
+  .form-inputs, #loan-output, #added-book  {
+    padding: 0.5vw;
+    font-size: 2rem;
+  }
+}

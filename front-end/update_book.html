@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Update Book Menu</title>
+</head>
+<body>
+  <!-- ###################### UPDATE BOOKS ############################### -->
+
+    <!-- Button back to Books Main Menu -->
+  <div class="form-inputs">
+    <button onclick="location.href='books.html'" type="button" class="button search-button">Books Menu</button>
+  </div>
+
+
+
+  <h1>UPDATE BOOK</h1>
+    <form id="update-form">
+
+      <!-- update book's title -->
+      <div class="form-inputs">
+        <label for="update-book-title">Update book's title:
+          <input type="text" id="update-book-title" class="search" placeholder="Harry Potter">
+        </label>
+      </div>
+
+      <!-- update book's isbn -->
+      <div class="form-inputs">
+        <label for="update-book-isbn">Update book's ISBN:
+          <input type="text" id="update-book-isbn" class="search" placeholder="1234567890">
+        </label>
+      </div>
+
+      <!-- Submit populated form -->
+      <div class="form-inputs">
+        <button type="button" name="button" id="update-book" class="button search-button">Submit</button>
+      </div>
+
+    </form>
+
+    <div>
+      <!-- Output Updated Book's detail's -->
+      <ul id="update-book-output"></ul>
+    </div>
+
+  <!-- connect to functionality file -->
+    <script src=update_book.js></script>
+
+</body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Add New Loan Menu</title>
+</head>
+<body>
+  <!-- ###################### ADD NEW LOANS ############################### -->
+
+  <!-- Button back to Loans Main Menu -->
+  <div>
+    <button onclick="location.href='loans.html'" type="button" class="button search-button">Loans Menu</button>
+  </div>
+
+  <h1>ADD NEW LOAN</h1>
+    <!-- Collect user input's form-->
+    <form>
+      <!-- select user's id -->
+      <div class="form-inputs">
+        <label for="select-user-id">Select User's id.
+          <input type="text" id="select-user-id" class="search" placeholder="1">
+        </label>
+      </div>
+
+      <!-- select book's id -->
+      <div class="form-inputs">
+        <label for="select-book-id">Select Book's id.
+          <input type="text" id="select-book-id" class="search" placeholder="1">
+        </label>
+      </div>
+
+      <!-- select/enter due date-->
+      <div class="form-inputs">
+        <label for="due-date" class="form-inputs">Enter due date.
+          <input type="date" id="due-date" class="search">
+        </label>
+      </div>
+
+      <!-- Submit populated form -->
+      <button type="button" name="button" id="create-loan" class="button search-button">Create Loan</button>
+
+    </form>
+
+    <div>
+      <!-- Output Added Loan's detail's -->
+      <ul id="loan-output"></ul>
+    </div>
+
+    <!-- connect to functionality file -->
+    <script src=add_new_loan.js></script>
+
+</body>

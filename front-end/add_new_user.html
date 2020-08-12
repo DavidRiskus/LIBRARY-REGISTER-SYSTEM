@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Add New User Menu</title>
+</head>
+<body>
+  <!-- ###################### ADD NEW USERS ############################### -->
+
+  <!-- Button back to Users Main Menu -->
+  <div class="form-inputs">
+    <button onclick="location.href='users.html'" type="button" class="button search-button">Users Menu</button>
+  </div>
+
+  <h1>ADD NEW USER</h1>
+    <!-- Collect user input's form-->
+    <form>
+      <!-- add user's name -->
+      <div class="form-inputs">
+        <label for="add-user-name">Add a new user's name:
+          <input type="text" id="add-user-name" class="search" placeholder="John Smith">
+        </label>
+      </div>
+
+      <!-- add user's barcode -->
+      <div class="form-inputs">
+        <label for="add-user-barcode">Add a new user's barcode:
+          <input type="text" id="add-user-barcode" class="search" placeholder="123456">
+        </label>
+      </div>
+
+      <!-- add user's member type Choose between Staff & Student-->
+      <div class="form-inputs">
+        <label for="search-term-author">Staff
+          <input type="radio" id="search-term-author" value="Staff" name="choice">
+        </label>
+        <label for="search-term-student">Student
+          <input type="radio" id="search-term-student" value="Student" name="choice">
+        </label>
+      </div>
+
+      <!-- Submit populated form -->
+      <div class="form-inputs">
+        <button type="button" name="button" id="add-user" class="button search-button">Submit</button>
+      </div>
+
+    </form>
+
+
+
+  <div>
+    <!-- Output Added User's detail's -->
+    <ul id="added-user-output"></ul>
+  </div>
+  
+  <!-- connect to functionality file -->
+  <script src=add_new_user.js></script>
+
+</body>

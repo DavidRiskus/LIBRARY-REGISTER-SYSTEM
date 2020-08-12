@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Library Loans Menu</title>
+</head>
+<body>
+  <!-- ###################### LOANS MAIN MENU ############################### -->
+  <!-- Button to return to Homepage -->
+  <div>
+    <button onclick="location.href='index.html'" class="button purple" type="button">Homepage</button>
+  </div>
+
+  <!-- Button transfers to Add New Loan Page -->
+  <h1>LOANS</h1>
+  <div>
+    <button onclick="location.href='add_new_loan.html'" class="button purple" type="button">Add New Loan</button>
+  </div>
+
+
+
+  <div>
+    <h2>FIND USER BORROWING BOOK</h2>
+
+    <!-- Searchbar for book's id -->
+    <label for="select-book-id" class="label-text">Book's id
+      <input type="text" id="select-book-id" class="search" placeholder="1">
+    </label>
+
+    <!-- Submit button to search by book's Id -->
+    <button type="button" name="button" id="button-user-borrowing-book" class="button search-button">Search</button>
+  </div>
+
+
+
+  <div>
+    <h2>SEARCH FOR USER'S LOANS</h2>
+
+    <!-- Searchbar for user's id -->
+    <label for="user-loans-by-id" class="label-text">Look up user's loans by user's id:
+      <input type="text" id="user-loans-by-id" class="search" placeholder="1">
+    </label>
+
+    <!-- Submit button to search by user's Id -->
+    <button type="button" name="button" id="button-search-users-loans" class="button search-button">Search</button>
+  </div>
+
+  <!-- Output container for dynamic table containing book details -->
+  <div>
+    <div class="fixed-header">
+      <table id="responsive-loans-table">
+        <thead id="loans-table-head">
+        </thead>
+        <tbody id="loans-output">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Top Button - jump back to the top of the page -->
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+
+  <!-- connect to loans.js file, which contains main loans page functionality -->
+  <script src=loans.js></script>
+
+</body>

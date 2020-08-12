@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Update Loan Menu</title>
+</head>
+<body>
+  <!-- ###################### UPDATE LOANS ############################### -->
+
+  <!-- Button back to Loans Main Menu -->
+  <div class="form-inputs">
+    <button onclick="location.href='loans.html'" type="button" class="button search-button">Loans Menu</button>
+  </div>
+
+  <h1>UPDATE LOAN</h1>
+
+  <!-- Collect user input's form-->
+    <form id="update-form">
+
+      <!-- update loan's due date-->
+      <div class="form-inputs">
+        <label for="due-date">Update due date.
+          <input type="date" id="due-date" class="search">
+        </label>
+      </div>
+
+      <!-- Submit populated form -->
+      <div>
+        <button type="button" name="button" id="button-update-loan" class="button search-button">Update Loan</button>
+      </div>
+
+    </form>
+
+    <div>
+      <!-- Output updated Loan's details -->
+      <ul id="loans-list"></ul>
+    </div>
+
+    <!-- connect to functionality file -->
+    <script src=update_loan.js></script>
+
+</body>

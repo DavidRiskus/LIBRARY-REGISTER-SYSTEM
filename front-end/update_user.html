@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>University of PontyBridge: Update User Menu</title>
+</head>
+
+<body>
+  <!-- ###################### UPDATE USERS ############################### -->
+
+  <!-- Button back to Users Main Menu -->
+  <div class="form-inputs">
+    <button onclick="location.href='users.html'" type="button" class="button search-button">Users Menu</button>
+  </div>
+
+  <h1>UPDATE USER</h1>
+
+      <!-- Collect user input's form-->
+    <form id="update-form">
+
+      <!-- update user's name -->
+      <div class="form-inputs">
+        <label for="update-user-name">Update user's name:
+          <input type="text" id="update-user-name" class="search" placeholder="John Smith">
+        </label>
+      </div>
+
+      <!-- update user's barcode -->
+      <div class="form-inputs">
+        <label for="update-user-barcode">Update user's barcode:
+          <input type="text" id="update-user-barcode" class="search" placeholder="123456"> <!--@@@@IMPROVE  should make it 6 digit -->
+        </label>
+      </div>
+
+      <!-- update user's member type  Choose between Staff & Student-->
+      <div class="form-inputs">
+        <label for="search-term-staff">Staff
+          <input type="radio" id="search-term-staff" value="Staff" name="choice"> <!-- @@@@IMPROVE should only take intager, maybe drop down list of possibles-->
+        </label>
+        <label for="search-term-student">Student
+          <input type="radio" id="search-term-student" value="Student" name="choice"> <!-- @@@@IMPROVE should only take intager, maybe drop down list of possibles-->
+        </label>
+      </div>
+
+      <!-- Submit populated form -->
+      <div class="form-inputs">
+        <button type="button" name="button" id="update-user" class="button search-button">Submit</button>
+      </div>
+
+    </form>
+
+    <div>
+      <!-- Output Updated User's detail's -->
+      <ul id="update-user-output"></ul>
+    </div>
+
+
+    <!-- connect to functionality file -->
+  <script src=update_user.js></script>
+
+</body>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>University of PontyBridge: Library Books Menu</title>
+</head>
+<body>
+  <!-- ###################### BOOKS MAIN MENU ############################### -->
+
+  <!-- Button to return to Homepage -->
+  <div>
+    <button onclick="location.href='index.html'" class="button purple" type="button">Homepage</button>
+  </div>
+
+  <h1>BOOKS</h1>
+
+  <!-- Button transfers to Add New Book Page -->
+  <div>
+    <button onclick="location.href='add_new_book.html'" class="button purple" type="button">Add New Book</button>
+  </div>
+
+
+  <!-- ########################### B2 SEARCH FOR A BOOK BY ID ################################ -->
+  <div>
+    <!-- Output Book's title, id, isbn number -->
+    <ul id="book-id-search"></ul>
+
+    <h2>SEARCH FOR A BOOK BY ID</h2>
+
+    <!-- Searchbar for book's id -->
+    <label for="search-book-by-id" class="label-text">(Retrieves book's id, title and isbn number)
+      <input type="text" id="search-book-by-id" class="search" placeholder="Book id">
+    </label>
+
+    <!-- Submit button to search by book's Id -->
+    <button type="button" id="search-book-id-button" class="button search-button">Search By Id</button>
+  </div>
+
+<!-- ########################### B2 SEARCH FOR A BOOK BY TITLE OR AUTHOR ################################ -->
+  <div>
+    <h2>SEARCH FOR A BOOK BY TITLE OR AUTHOR</h2>
+
+    <!-- Searchbar for book's title or author -->
+    <label for="search-books-title-or-author">
+      <input type="text" id="search-books-title-or-author" class="search" placeholder="Harry Potter or John Smith">
+    </label>
+  </div>
+
+
+  <div>
+    <!-- Output container for dynamic table containing book details -->
+    <div class="fixed-header">
+      <table id="responsive-books-table">
+        <thead id="books-table-head">
+        </thead>
+        <tbody id="books-output">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Top Button - jump back to the top of the page -->
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+
+  <!-- connect to books.js file, which contains main books page functionality -->
+  <script src="books.js"></script>
+
+</body>
