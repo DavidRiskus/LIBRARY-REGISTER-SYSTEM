@@ -2,14 +2,12 @@
 
 # Installation
 
-Download and install all requirements for the server with:
+inside the LIBRARY-REGISTER-SYSTEM/back-end run:
 
 ```
 npm install
 ```
-xxxxxxxxxx This will create a `library.sqlite` file inside the LIBRARY-REGISTER-SYSTEM/back-end/`data/` directory and pre-populate it with some sample data.
-
-**CAUTION!** Running this command will remove any data already stored in the database `data/library.sqlite`. It should be used with caution, only when you want to reset the Database to its initial state.
+'node_modules' folder with node.js dependencies will be retrieved.
 
 ## Running the Server
 
