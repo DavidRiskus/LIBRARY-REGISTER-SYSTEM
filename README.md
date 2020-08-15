@@ -99,6 +99,10 @@ input user's id in the prompted field, click `SARCH` button.
 
 If there are any loans on provided user's ID, then the main table will be updated and `RESET SEARCH` button will appear, to return to previous state. Otherwise, "No loans found!" message will appear and `RESET SEARCH` button will appear.
 
+<b> *** Overdue Column</b>: Counts the difference between Due Date and when the Loan was created.
 
+<b> *** Add New Loan</b>: Click `ADD NEW LOAN` button, populate the form with prompted information. 
+<img src="https://i.imgur.com/rN72zF3.png" alt="Add new Loan" width="600" height="300"/>
+When finished click `CREATE LOAN`.
 
 
