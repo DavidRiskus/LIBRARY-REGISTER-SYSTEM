@@ -91,5 +91,6 @@ Click `ADD NEW BOOK` to submit new book's details to the database.
 
 <b> *** Edit Book</b>: Click the `EDIT` button in the Books Table, new page will open, change the information accordingly and click `Submit`.
 
+## Loans
 
 
