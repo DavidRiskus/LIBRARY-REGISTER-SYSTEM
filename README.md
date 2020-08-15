@@ -75,9 +75,11 @@ All Book records are retrieved from the server once the page is loaded.
 without refreshing the webpage filter the book records table, based on the charachters contained inside book’s title or author.
 
 <b> *** Search Book by ID</b>:
-input book's id in the prompted field, click `Search by ID`. If the id exists, 
+input book's id in the prompted field, click `Search by ID`. If the id exists, book's Title and ISBN will be prompted.
 
-<img src="https://i.imgur.com/qAdhuxM.png" alt="Search Book by ID" width="500" height="200"/>
+<img src="https://i.imgur.com/MUPtiV9.png" alt="Search Book by ID" width="500" height="200"/>
+Otherwise, message will be prompted that book's id does not exist.
+
 
 
 
