@@ -87,4 +87,9 @@ Otherwise, message will be prompted that book's id does not exist.
 Populate the form with prompted information. Clicking `Add Another Author` creates additional input field for more than 1 authors. 
 Click `ADD NEW BOOK` to submit new book's details to the database.
 
+<b> *** Delete Book</b>: Click the `DELETE` button in the Books Table, next to the chosen record under `Delete Book` column. Confirmation pop-up message will appear, choose `CANCEL` or `OK`.
+
+<b> *** Edit Book</b>: Click the `Edit` button in the Books Table, new page will open, change the information accordingly and click `Submit`.
+
+
 
