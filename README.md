@@ -46,8 +46,13 @@ User is presented with the homepage menu:
 ### Mobile view:
 <img src="https://i.imgur.com/njiGS11.png" alt="Image of side menu" width="200" height="300"/>
 
-## User
+## Users
 <img src="https://i.imgur.com/EtypRMQ.png" alt="Image of side menu" width="600" height="250"/>
+
+All User records are retrieved from the server once the page is loaded.
+
+<b>Search User by Name or Barcode</b>: The search bar is a text input that will dynamically and instantlly,
+without refreshing the webpage filter the user records table, based on the charechters contained inside user’s barcode or name.
 
 
 
