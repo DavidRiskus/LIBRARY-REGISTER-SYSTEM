@@ -47,7 +47,7 @@ User is presented with the homepage menu:
 <img src="https://i.imgur.com/njiGS11.png" alt="Home page view Mobile" width="200" height="300"/>
 
 ## Users
-<img src="https://i.imgur.com/EtypRMQ.png" alt="Users menu" width="600" height="250"/>
+<img src="https://i.imgur.com/EtypRMQ.png" alt="Users Main Menu" width="600" height="250"/>
 
 All User records are retrieved from the server once the page is loaded.
 
@@ -66,4 +66,14 @@ Populate the prompted information in the form. Click `Submit` button, which will
 
 <img src="https://i.imgur.com/SixrXaR.png" alt="Update User Menu" width="600" height="250"/>
 Respective user's id is used to retrieve data from the database and populate the current information in the form. Once the details are changed, click `Submit` button to finalise the update.
+
+## Books
+<img src="https://i.imgur.com/TRSo2sJ.png" alt="Books Main Menu" width="600" height="250"/>
+All Book records are retrieved from the server once the page is loaded.
+
+<b> *** Search Book by Title or Author</b>: The search bar is a text input that will dynamically and instantlly,
+without refreshing the webpage filter the book records table, based on the charachters contained inside book’s title or author.
+
+<b> *** Search Book by Title or Author</b>:
+
 
