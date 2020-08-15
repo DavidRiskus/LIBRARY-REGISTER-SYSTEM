@@ -84,6 +84,6 @@ Otherwise, message will be prompted that book's id does not exist.
 <b> *** Add Book</b>: click `ADD NEW BOOK` button, new page is opened (Desktop view):
 
 <img src="https://i.imgur.com/oMCjruH.png" alt="Add new User Menu" width="600" height="300"/>
-
+Populate the form with prompted information. Clicking `Add Another Author` creates additional input field for more than 1 authors. Click `ADD NEW BOOK` to submit new book's details to the database.
 
 
