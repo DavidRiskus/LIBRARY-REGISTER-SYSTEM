@@ -64,6 +64,6 @@ Populate the prompted information in the form. Click `Submit` button, which will
 
 <b> *** Edit User</b>: Click the `Edit` button in the Users Table, new page will open (Desktop View):
 
-<img src="https://i.imgur.com/SixrXaR.png" alt="Update User Menu" width="500" height="250"/>
+<img src="https://i.imgur.com/SixrXaR.png" alt="Update User Menu" width="600" height="250"/>
 Respective user's id is used to retrieve data from the database and populate the current information in the form. Once the details are changed, click `Submit` button to finalise the update.
 
