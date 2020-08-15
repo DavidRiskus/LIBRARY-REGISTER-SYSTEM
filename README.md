@@ -54,8 +54,12 @@ All User records are retrieved from the server once the page is loaded.
 <b>Search User by Name or Barcode</b>: The search bar is a text input that will dynamically and instantlly,
 without refreshing the webpage filter the user records table, based on the charachters contained inside user’s barcode or name.
 
-<b>Add User</b>: click 'ADD NEW USER' button, new page is opened (Mobile view):
+<b>Add User</b>: click `ADD NEW USER' button`, new page is opened (Mobile view):
 
 <img src="https://i.imgur.com/BVpd78O.png" alt="Add new User Menu" width="300" height="250"/>
+
+Populate the prompted information in the form. Click `Submit` button, which will send a POST request to the server and update the database. Note: Barcode needs to contain 6 digits, otherwise the request will not be sent and prompt message will appear to provide 6 digits.
+
+
 
 
