@@ -40,4 +40,4 @@ check if the app is running on `http://0.0.0.0:8000/`
 
 User is presented with the homepage menu:
 
-<img src="https://imgur.com/a/A7zOS3J" alt="Image of side menu" width="450"/>
+<img src="https://imgur.com/51JbHLx" alt="Image of side menu" width="450"/>
