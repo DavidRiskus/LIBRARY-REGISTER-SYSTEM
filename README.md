@@ -46,5 +46,8 @@ User is presented with the homepage menu:
 ### Mobile view:
 <img src="https://i.imgur.com/njiGS11.png" alt="Image of side menu" width="200" height="300"/>
 
+## User
+<img src="https://i.imgur.com/EtypRMQ.png" alt="Image of side menu" width="200" height="300"/>
+
 
 
