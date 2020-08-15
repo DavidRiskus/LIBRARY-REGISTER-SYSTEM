@@ -34,7 +34,7 @@ Run the application in the development mode in 'LIBRARY-REGISTER-SYSTEM/front-en
 
 'python -m SimpleHTTPServer'
 
-check if the app is running on 'http://0.0.0.0:8000/'
+check if the app is running on `http://0.0.0.0:8000/`
 
 # Features
 
