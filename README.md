@@ -2,7 +2,7 @@
 
 # Installation
 
-inside the LIBRARY-REGISTER-SYSTEM/back-end run:
+inside the 'LIBRARY-REGISTER-SYSTEM/back-end' run:
 
 ```
 npm install
@@ -28,5 +28,13 @@ To check the database and server are operating correctly you can open `http://12
 
 Requests to the server can be made to the endpoints specified in `server.js`. For details on the Models and the Fields they contain, check `data.js`
 
+## Running the Front-End Application
+
+Run the application in the development mode in 'LIBRARY-REGISTER-SYSTEM/front-end' i.e.:
+
+'python -m SimpleHTTPServer'
+
+check if the app is running on 'http://0.0.0.0:8000/'
 
 # Features
+
