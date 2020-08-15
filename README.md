@@ -102,11 +102,16 @@ If there are any loans on provided user's ID, then the main table will be update
 <b> *** Overdue Column</b>: Counts the difference between Due Date and when the Loan was created.
 
 <b> *** Add New Loan</b>: Click `ADD NEW LOAN` button, populate the form with prompted information. 
+
 <img src="https://i.imgur.com/rN72zF3.png" alt="Add new Loan" width="300" height="300"/>
 
 
 When finished, click `CREATE LOAN`.
 
 
+<b> *** Delete Loan</b>: Click the `DELETE` button in the Loans Table, next to the chosen record under `Delete Loan` column. Confirmation pop-up message will appear, choose `CANCEL` or `OK`.
+<b>Note:</b> If a user or book is deleted from the system, the loan is also deleted from the database.
+
+<b> *** Edit Loan</b>: Click the `EDIT` button in the Loans Table, new page will open, change the information accordingly and click `Update Loan`.
 
 
