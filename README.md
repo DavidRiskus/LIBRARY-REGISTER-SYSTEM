@@ -114,4 +114,4 @@ When finished, click `CREATE LOAN`.
 
 <b> *** Edit Loan</b>: Click the `EDIT` button in the Loans Table, new page will open, change the information accordingly and click `Update Loan`.
 
-
+<b> *** Find User Borrowing the Book</b>: Input book's ID in the prompted field. Click `SEARCH` If the book does not exist or has not been loaned out, "No loans found!" message will appear and `RESET SEARCH` button will appear. Otherwise, Loans table will update loans, showing the User ID holding the Book.
