@@ -93,4 +93,12 @@ Click `ADD NEW BOOK` to submit new book's details to the database.
 
 ## Loans
 
+<b> *** Search Loans by User's ID</b>:
+input user's id in the prompted field, click `SARCH` button.
+<img src="https://i.imgur.com/hJxisE6.png" alt="Search Loans by User ID" width="600" height="200"/>
+
+If there are any loans on provided user's ID, then the main table will be updated and `RESET SEARCH` button will appear, to return to previous state. Otherwise, "No loans found!" message will appear and `RESET SEARCH` button will appear.
+
+
+
 
