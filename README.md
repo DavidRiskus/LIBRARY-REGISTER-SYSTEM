@@ -47,7 +47,7 @@ User is presented with the homepage menu:
 <img src="https://i.imgur.com/njiGS11.png" alt="Image of side menu" width="200" height="300"/>
 
 ## User
-<img src="https://i.imgur.com/EtypRMQ.png" alt="Image of side menu" width="600" height="200"/>
+<img src="https://i.imgur.com/EtypRMQ.png" alt="Image of side menu" width="600" height="250"/>
 
 
 
