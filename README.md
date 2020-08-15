@@ -68,12 +68,16 @@ Populate the prompted information in the form. Click `Submit` button, which will
 Respective user's id is used to retrieve data from the database and populate the current information in the form. Once the details are changed, click `Submit` button to finalise the update.
 
 ## Books
-<img src="https://i.imgur.com/TRSo2sJ.png" alt="Books Main Menu" width="600" height="250"/>
+<img src="https://i.imgur.com/TRSo2sJ.png" alt="Books Main Menu" width="600" height="300"/>
 All Book records are retrieved from the server once the page is loaded.
 
 <b> *** Search Book by Title or Author</b>: The search bar is a text input that will dynamically and instantlly,
 without refreshing the webpage filter the book records table, based on the charachters contained inside book’s title or author.
 
-<b> *** Search Book by Title or Author</b>:
+<b> *** Search Book by ID</b>:
+input book's id in the prompted field, click `Search by ID`. If the id exists, 
+
+<img src="https://i.imgur.com/qAdhuxM.png" alt="Search Book by ID" width="500" height="300"/>
+
 
 
