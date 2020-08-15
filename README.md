@@ -83,7 +83,7 @@ Otherwise, message will be prompted that book's id does not exist.
 
 <b> *** Add Book</b>: click `ADD NEW BOOK` button, new page is opened (Desktop view):
 
-<img src="https://i.imgur.com/oMCjruH.png" alt="Add new User Menu" width="300" height="250"/>
+<img src="https://i.imgur.com/oMCjruH.png" alt="Add new User Menu" width="600" height="300"/>
 
 
 
