@@ -81,6 +81,9 @@ input book's id in the prompted field, click `Search by ID`. If the id exists, b
 Otherwise, message will be prompted that book's id does not exist.
 
 
+<b> *** Add Book</b>: click `ADD NEW BOOK` button, new page is opened (Desktop view):
+
+<img src="https://i.imgur.com/oMCjruH.png" alt="Add new User Menu" width="300" height="250"/>
 
 
 
