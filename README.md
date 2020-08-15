@@ -54,8 +54,8 @@ All User records are retrieved from the server once the page is loaded.
 <b>Search User by Name or Barcode</b>: The search bar is a text input that will dynamically and instantlly,
 without refreshing the webpage filter the user records table, based on the charachters contained inside user’s barcode or name.
 
-<b>Add User</b>: click 'ADD NEW USER' button, new page is opened:
+<b>Add User</b>: click 'ADD NEW USER' button, new page is opened (Mobile view):
 
-<img src="https://i.imgur.com/BVpd78O.png" alt="Add new User Menu" width="600" height="250"/>
+<img src="https://i.imgur.com/BVpd78O.png" alt="Add new User Menu" width="300" height="250"/>
 
 
