@@ -105,6 +105,8 @@ If there are any loans on provided user's ID, then the main table will be update
 <img src="https://i.imgur.com/rN72zF3.png" alt="Add new Loan" width="300" height="300"/>
 
 
-When finished click `CREATE LOAN`.
+When finished, click `CREATE LOAN`.
+
+
 
 
