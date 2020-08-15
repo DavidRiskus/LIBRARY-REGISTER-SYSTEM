@@ -2,12 +2,12 @@
 
 # Installation
 
-inside the 'LIBRARY-REGISTER-SYSTEM/back-end' run:
+inside the `LIBRARY-REGISTER-SYSTEM/back-end` run:
 
 ```
 npm install
 ```
-'node_modules' folder with node.js dependencies will be retrieved.
+`node_modules` folder with node.js dependencies will be retrieved.
 
 ## Running the Server
 
@@ -30,11 +30,14 @@ Requests to the server can be made to the endpoints specified in `server.js`. Fo
 
 ## Running the Front-End Application
 
-Run the application in the development mode in 'LIBRARY-REGISTER-SYSTEM/front-end' i.e.:
+Run the application in the development mode in `LIBRARY-REGISTER-SYSTEM/front-end` i.e.:
 
-'python -m SimpleHTTPServer'
+`python -m SimpleHTTPServer`
 
 check if the app is running on `http://0.0.0.0:8000/`
 
 # Features
+
+User is presented with the homepage menu:
+
 
